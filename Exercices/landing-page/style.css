@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+  background-color: #2F3038;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* HEADER */
+header{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-left: 40px;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-right: 40px;
+}
+.header-title{
+  font-family: 'Poppins', sans-serif;
+  margin-left: 20px;
+}
+
+.nav a {
+  margin-left: 20px;
+}
+
+/* FIN HEADER */
+
+.main-container{
+  background-color: red;
+
+}
+/* BUUUUULLLLEEEEE */
+
+.bubble{
+  z-index:-999; /* S'assurer que les bulles seront tjs en dessous des autres éléments */
+  border-radius: 100%;
+  position: absolute;
+  opacity: 15%;
+}
+
+.blue{
+  background-color: aqua;
+
+}
+
+.red{
+  background-color: red;
+}
+
+#num1{
+  width: 450px;
+  height: 450px;
+  top: 40%;
+  left: 1%;
+}
+
+#num2{
+  width: 80px;
+  height: 80px;
+  top: 60%;
+  left: 40%;
+}
+
+#num3{
+  width: 245px;
+  height: 245px;
+  top: 2%;
+  left: 43%;
+}
+
+#num4{
+  width: 120px;
+  height: 120px;
+  top: -2%;
+  left: 70%;
+}
+
+#num5{
+  width: 650px;
+  height: 650px;
+  top: 50%;
+  left: 70%;
+}
